@@ -32,7 +32,7 @@ public class ItemsService {
     }
 
     public void addItemToRepo(Item item) {
-        ItemsRepository.addItem(item)
+        ItemsRepository.addItem(item);
         System.out.printf("Товар с артикулом %s добавлен на склад \n", item.getArticle());
     }
 
