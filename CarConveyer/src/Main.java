@@ -5,17 +5,17 @@ import java.util.concurrent.atomic.AtomicInteger;
 public class Main {
 
     /*
-    Приолжение - симулятор автомобильного конвейера.
+    Приложение - симулятор автомобильного конвейера.
     Задача - собрать определенное кол-во автомобилей по ТЗ,
     для автомобиля Лада - с атмосферным двигателем, для
-    автомобиля Dodge - с с турбированным. Кадому автомобилю
+    автомобиля Dodge - с турбированным. Каждому автомобилю
     должен быть присвоен уникальный серийный номер.
      */
 
     static int amountOfCars = 200;
     static int amountOfLada = 10;
 
-    static int amountofDodge = 190;
+    static int amountOfDodge = 190;
 
     public static void main(String[] args) {
         List<Object> cars = new ArrayList<>();
